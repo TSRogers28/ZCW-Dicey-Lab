@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Bins
+comment1.params=min\ max
+comment1.target=Bins(int,\ int)
+comment2.params=n
+comment2.target=int\ getBin(int)
+comment3.params=x
+comment3.target=void\ incrementBin(int)
+numComments=4
