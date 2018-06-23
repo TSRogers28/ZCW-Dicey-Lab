@@ -29,12 +29,11 @@ public class Simulation {
         System.out.println("***");
         System.out.println();    
 
-        for(int x = simDice.getNumOfDice(); x <= simDice.getNumOfDice()*6; x++){
-            float d = (float) resultBin.getBin(x)/numberofTosses;
-            int i = resultBin.getBin(x);
-            String b = convertToStars(resultBin.getBin(x)/10000);
-            String label = x  + " : " + "\t " + i +":" + d;
-            System.out.printf("%2d:    %6d: %.2f %s", x, i, d, b);
+        for(int diceNum = simDice.getNumOfDice(); diceNum <= simDice.getNumOfDice()*6; diceNum++){
+            float percent = (float) resultBin.getBin(diceNum)/numberofTosses;
+            int totalRolled = resultBin.getBin(diceNum);
+            String stars = convertToStars(resultBin.getBin(diceNum)/10000);
+            System.out.printf("%2d:    %6d: %.2f %s", diceNum, totalRolled, percent, stars);
             System.out.println();
         }
     }
