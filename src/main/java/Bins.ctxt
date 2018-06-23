@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=Bins
-comment1.params=min\ max
-comment1.target=Bins(int,\ int)
-comment2.params=n
-comment2.target=int\ getBin(int)
-comment3.params=x
-comment3.target=void\ incrementBin(int)
-numComments=4
+comment1.params=
+comment1.target=Bins()
+comment2.params=
+comment2.target=java.util.Set\ landedOnSet()
+comment3.params=
+comment3.target=int\ getSize()
+comment4.params=n
+comment4.target=int\ getBin(int)
+comment5.params=landedOn
+comment5.target=void\ incrementBin(int)
+numComments=6

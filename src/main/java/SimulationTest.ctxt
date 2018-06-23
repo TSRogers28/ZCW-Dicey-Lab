@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SimulationTest
+comment0.text=\n\ The\ test\ class\ SimulationTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ testRunSimulation()
+comment2.params=
+comment2.target=void\ testConvertToStars()
+numComments=3

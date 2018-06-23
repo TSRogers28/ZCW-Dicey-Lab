@@ -1,21 +1,32 @@
+import java.util.Map;
+import java.util.*;
 
 public class Bins {
-private int[] results;    
-    
-public Bins(int min, int max){
- results = new int [max +1];
+    Map<Integer, Integer> result;
+    int temp;
+    int total;
+    public Bins(){
+        result = new TreeMap<Integer, Integer>();
+    }
 
-}
+    public Set<Integer> landedOnSet(){
+        return result.keySet();
+    }
 
-public int getBin(int n){
-return results[n];
-}
+    public int getSize(){
+        return result.size();
+    }
 
-public void incrementBin(int x){
-results[x] += 1;
-}
+    public int getBin(int n){
+        return  result.get(n);
+    }
 
-
-
+    public void incrementBin(int landedOn){
+        if(!result.containsKey(landedOn))
+            result.put(landedOn, 1);
+        else
+            temp = result.get(landedOn);
+        result.put(landedOn, ++temp);
+    }
 }
 

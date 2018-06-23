@@ -1,11 +1,13 @@
 #BlueJ class context
 comment0.target=Simulation
-comment1.params=numberOfDices\ numberofTosses
+comment1.params=numberOfDice\ numberofTosses
 comment1.target=Simulation(int,\ int)
 comment2.params=
-comment2.target=void\ runSimulation()
+comment2.target=Bins\ getBin()
 comment3.params=
-comment3.target=void\ printResults()
-comment4.params=num
-comment4.target=java.lang.String\ convertToStars(int)
-numComments=5
+comment3.target=void\ runSimulation()
+comment4.params=
+comment4.target=void\ printResults()
+comment5.params=num
+comment5.target=java.lang.String\ convertToStars(int)
+numComments=6

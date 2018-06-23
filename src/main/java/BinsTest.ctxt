@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=BinsTest
+comment0.text=\n\ The\ test\ class\ BinsTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ testIncrementBin2()
+comment2.params=
+comment2.target=void\ testIncrementBin7()
+comment3.params=
+comment3.target=void\ testIncrementBin12()
+comment4.params=
+comment4.target=void\ testIncrementBinWithOneDiceRoll()
+comment5.params=
+comment5.target=void\ testIncrementBinSizeWithOneThousandDiceRolls()
+comment6.params=
+comment6.target=void\ testIncrementBinNumbersWithOneThousandDiceRolls()
+comment7.params=
+comment7.target=void\ testIncrementBinOneMillion()
+numComments=8
